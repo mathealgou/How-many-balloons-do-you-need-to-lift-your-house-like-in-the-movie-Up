@@ -5,8 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How Many Balloons do you need to lift your house like in the movie up?</title>
+
+    
+
 </head>
 <body>
-    
+    <label for="gasSelector">Wich gas do you wnat to fill the balloons with?</label>
+    <select name="gasSelector" id="gasSelector">
+        <option>Helium</option>
+        <option>Hydrogen</option>
+    </select>
+
+    <br>
+
+    <label for="inputSquareMeters">How big is your house in square meters (m²)</label>
+    <input type="number" id="inputSquareMeters">
+
+    <br>
+
+    <button onclick="calculate()">Calculate!</button>
+
+    <div id="resultText"></div>
+
+    <script src="Script.js"></script>
 </body>
 </html>
