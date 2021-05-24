@@ -1,0 +1,44 @@
+html{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(31, 31, 31);
+    color: lightgray;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.title{
+    font-size: 60pt;
+}
+
+.paragraphTitle{
+    font-size: 20pt;
+}
+.paragraph{
+    font-size: 12pt;
+    color: lightgray;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a{
+    font-size: 12pt;
+    color: lightgray;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.input{
+    margin-top: 10pt;
+    background-color: lightgray;
+    color:rgb(31, 31, 31);
+    font-size: 20pt;
+    border: none;
+    border-radius: 3pt;
+    vertical-align: middle;
+    text-align: center;
+}
+.input:hover{
+    cursor: pointer;
+    background-color: white;
+}

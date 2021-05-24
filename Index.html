@@ -6,17 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How Many Balloons do you need to lift your house like in the movie up?</title>
 
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Style.css">
 
 </head>
 <body>
-    <label for="gasSelector">Wich gas do you wnat to fill the balloons with?</label>
-    <select name="gasSelector" id="gasSelector">
+    <div class="title">
+        How Many Balloons do you need to lift your house like in the movie up?
+    </div>
+
+    <label class="paragraphTitle" for="gasSelector">Wich gas do you wnat to fill the balloons with?</label>
+    <br>
+    <select class="input" name="gasSelector" id="gasSelector">
         <option>Helium</option>
         <option>Hydrogen</option>
     </select>
 
-    <div class="paragraphtitle">
+    <div class="paragraphTitle">
         Lorem Ipsum 
     </div>
     
@@ -26,23 +34,27 @@
 
     <br>
 
-    <label for="inputSquareMeters">How big is your house in square meters (m²)</label>
-    <input type="number" id="inputSquareMeters">
+    <label class="paragraphTitle" for="inputSquareMeters">How big is your house in square meters (m²)</label>
+    <br>
+    <input class="input" type="number" id="inputSquareMeters">
 
-    <div class="paragraphtitle">
+    <div class="paragraphTitle">
         Lorem Ipsum 
     </div>
     
     <div class="paraghraph">
-        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum 
+        The general rule of thumb surrounding the construction industry is that a single-level home weighs roughly 200 pounds per square foot (976 kilos per square meter).
     </div>
+    <a class="paragraph" href="https://upgradedhome.com/how-much-does-a-house-weigh/#:~:text=Regardless%2C%20the%20general%20rules%20of,square%20foot%20for%20three%20levels.">
+        According to upgradedhome.com.
+    </a>
 
     <br>
     
 
-    <button onclick="calculate()">Calculate!</button>
+    <button class="input" onclick="calculate()">Calculate!</button>
 
-    <div id="resultText"></div>
+    <div class="paragraphTitle" id="resultText"></div>
 
     <script src="Script.js"></script>
 </body>
